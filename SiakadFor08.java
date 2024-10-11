@@ -16,6 +16,11 @@ public class SiakadFor08 {
             if (nilai < terendah) {
                 terendah = nilai;
             }
+            if (nilai >= 60) {
+                System.out.println("Siswa Lulus");
+            } else {
+                System.out.println("Siswa Tidak Lulus");
+            }
         }
 
         System.out.println("Nilai Tertinggi : " + tertinggi);
